@@ -1,4 +1,4 @@
-const buttons = document.querySelectorAll("button");
+const spans = document.querySelectorAll("span");
 
 const resultEl = document.getElementById("result");
 
@@ -9,9 +9,9 @@ const computerScoreEl = document.getElementById("computer-score");
 let playerScore = 0;
 let computerScore = 0;
 
-buttons.forEach((button) => {
-  button.addEventListener("click", () => {
-    const result = playRound(button.id, computerPlay());
+spans.forEach((span) => {
+  span.addEventListener("click", () => {
+    const result = playRound(span.id, computerPlay());
     resultEl.textContent = result;
   });
 });

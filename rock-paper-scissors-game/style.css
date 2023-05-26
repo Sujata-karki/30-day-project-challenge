@@ -14,11 +14,11 @@ p{
     text-align: center;
     margin-bottom: .5rem;
 }
-.buttons{
+.spans{
     display: flex;
     justify-content: center;
 }
-button{
+span{
     border: none;
     font-size: 3rem;
     margin: 0 .5rem;
@@ -36,7 +36,7 @@ button{
     -ms-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
 }
-button:hover{
+span:hover{
     opacity: 0.7;
 }
 #rock {
